@@ -1,0 +1,54 @@
+super_user: 
+name: Nastia
+password: 2002@22
+
+
+staff:
+name: Kate
+password: kiti3333
+Статус персонал;
+дозволи користувача:
+
+image| can add publication
+shop|shoping|can add shop
+shop|shoping|can add shoping
+shop|shoping|can view shop
+shop|shoping|can view shoping
+
+
+staff:
+name: Dmytro
+password: d12345m@
+Статус перонал;
+дозволи користувача:
+ 
+auth|користувач |can change user
+contenttypes|тип вмісту| can change content type
+image| can change image
+image| can change publication
+shop|shoping| can change shop
+shop|shoping|can change shoping
+
+
+staff:
+name: Oleg
+password: 8565oleg
+Статус перонал;
+дозволи користувача:
+ 
+auth|дозвіл|can delete permission
+auth|дозвіл|can view permission
+auth|користувач|can delete user
+contenttypes|тип місту|can delete content type
+image|can delete image
+image|can delete publication
+image|can view image
+image|can view publicattion
+sessions|сесія| can delete session
+shop|shoping|can delete session
+shop|shoping|can delete shop
+shop|shoping|can delete shoping
+shop|shoping|can view shop
+shop|shoping|can view shoping
+kvstore|can delete kv store
+
